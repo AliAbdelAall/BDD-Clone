@@ -6,6 +6,11 @@ body{
   z-index: -1;
 }
 
+.logo{
+  width: 100px;
+  height: 120px;
+}
+
 .header{
   width: 100%;
   height: fit-content;
@@ -22,15 +27,11 @@ body{
 
 .intro-background h1{
   text-align: center;
-  margin: 300px 0;
+  margin: 220px 0;
   padding: 0 250px;
   font-size: 60px;
   font-weight: bolder;
   letter-spacing: 1px;
-}
-
-.logo{
-  border-radius: 10px;
 }
 
 .header-nav ul{
@@ -146,3 +147,40 @@ body{
   border-radius: 50%;
   cursor: pointer;
 }
+
+.community-section{
+  background-color: white;
+  padding: 40px 0;
+  height: fit-content;
+}
+
+.community-image{
+  width: 30%;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+  flex-grow: 1;
+}
+
+.community-image img{
+  width: 100%;
+  height: auto;
+ 
+}
+
+.features-wrapper{
+  padding: 45px;
+  margin: 10px;
+  max-width: 250px;
+}
+
+.features-wrapper ul{
+  list-style: none;
+}
+
+.community-section h2{
+  margin-bottom: 35px;
+  font-size: 30px;
+}
+
+
