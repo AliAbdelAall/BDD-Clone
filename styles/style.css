@@ -1,5 +1,5 @@
 body{
-  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(/images/bddgal2.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(255, 255, 255, 0.2)), url(/images/bddgal2.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -227,13 +227,51 @@ body{
 }
 
 .hub-section{
-  padding: 20px;
+  padding: 35px 0 60px 0;
   flex-wrap: wrap;
 }
 
 .hub-section h2{
   text-align: center;
   font-size: 30px;
+  margin-bottom: 10px;
 }
 
+.hub-image{
+  width: 80px;
+  height: auto;
+  
+}
+
+.hub-info-wrapper{
+  text-align: center;
+  padding: 20px;
+  max-width: 20%;
+}
+
+.hub-info-wrapper h4{
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.hub-info-wrapper p{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.comunity{
+  color: rgba(0, 195, 166, 0.5);
+}
+
+.events{
+  color: rgba(255, 0, 93, 0.5);
+}
+
+.vc{
+  color: rgba(0, 171, 0, 0.5);
+}
+
+.support{
+  color: rgba(0, 98, 255, 0.5);
+}
 
