@@ -49,3 +49,7 @@
   align-items: start;
 }
 
+.no-style{
+  list-style: none;
+}
+

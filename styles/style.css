@@ -62,7 +62,7 @@ body{
 
 .icon-grid{
   height: fit-content;
-  padding: 30px 0;
+  padding: 30px 20px;
 
 }
 
@@ -79,7 +79,7 @@ body{
   flex-grow: 1;
   width: auto;
   /* max-width: 300px; */
-  min-width: 12%;
+  min-width: 70px;
   max-width: 15%;
   gap: 2px;
   text-align: center;
@@ -89,6 +89,13 @@ body{
 
 .icon-wrapper h2{
   font-size: 18px;
+}
+
+.icon-wrapper p{
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  word-wrap: break-word;
 }
 
 .icon-section{
@@ -113,14 +120,6 @@ body{
 
 .social:hover{
   background-color: rgba(255, 79, 79, 0.15);
-}
-
-.icon-wrapper p{
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 400;
-  word-wrap: break-word;
-  flex-wrap: wr;
 }
 
 .video-wrapper{
@@ -177,10 +176,6 @@ body{
   padding: 45px;
   margin: 10px;
   max-width: 15%;
-}
-
-.features-wrapper ul{
-  list-style: none;
 }
 
 .features-wrapper h3{
@@ -331,9 +326,9 @@ body{
   margin-bottom: 15px;
 }
 
-.visit-us i{
+.visit-us i, .feedback i{
   font-size: 8px;
-  margin-left: 5px ;
+  margin-left: 15px ;
 }
 
 .visit-btn{
@@ -341,3 +336,26 @@ body{
   letter-spacing: 0;
 }
 
+.feedback{
+  padding: 30px 20%;
+
+}
+
+.feedback-images{
+  flex-wrap: wrap;
+}
+
+.feedback-image{
+  max-width: 32%;
+  height: auto;
+
+}
+
+.feedback-image:hover{
+  cursor: pointer;
+}
+
+.feedback h2{
+  font-size: 28px;
+  max-width: 30%;
+}
