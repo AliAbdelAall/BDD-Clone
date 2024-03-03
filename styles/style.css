@@ -55,6 +55,58 @@ body{
   font-weight: bold;
 }
 
+.icon-image{
+  height: 80px;
+}
+
+.icon-grid{
+  height: fit-content;
+  padding: 30px 0;
+
+}
+
+.icon-grid-header{
+  font-size: 30px;
+  letter-spacing: 0;
+  font-weight: bolder;
+  margin: 20px 0;
+}
+
+.icon-wrapper{
+  padding: 40px 25px;
+  margin: 0 20px 20px;
+  flex-grow: 1;
+  width: auto;
+  max-width: 300px;
+  min-width: min-content;
+  gap: 2px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+}
 
 
+.icon-wrapper h2{
+  font-size: 18px;
+}
+
+.icon-section{
+  flex-wrap: wrap;
+}
+
+.community:hover{
+  background-color: rgba(0, 115, 255, 0.12);
+}
+
+.economy:hover{
+  background-color: rgba(0, 200, 255, 0.12);
+}
+
+.icon-wrapper p{
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  word-wrap: break-word;
+  flex-wrap: wr;
+}
 
