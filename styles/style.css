@@ -226,4 +226,14 @@ body{
   cursor: pointer;
 }
 
+.hub-section{
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.hub-section h2{
+  text-align: center;
+  font-size: 30px;
+}
+
 
