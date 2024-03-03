@@ -1,5 +1,5 @@
 body{
-  background: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.3)), url(/images/bddgal2.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(/images/bddgal2.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -85,7 +85,6 @@ body{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
 }
 
-
 .icon-wrapper h2{
   font-size: 18px;
 }
@@ -95,11 +94,23 @@ body{
 }
 
 .community:hover{
-  background-color: rgba(0, 115, 255, 0.12);
+  background-color: rgba(0, 115, 255, 0.15);
 }
 
 .economy:hover{
-  background-color: rgba(0, 200, 255, 0.12);
+  background-color: rgba(0, 200, 255, 0.15);
+}
+
+.design:hover{
+  background-color: rgba(79, 255, 135, 0.15);
+}
+
+.sustainability:hover{
+  background-color: rgba(255, 255, 79, 0.15);
+}
+
+.social:hover{
+  background-color: rgba(255, 79, 79, 0.15);
 }
 
 .icon-wrapper p{
@@ -110,3 +121,28 @@ body{
   flex-wrap: wr;
 }
 
+.video-wrapper{
+  width: 100%;
+}
+
+/* .video-image{
+} */
+
+.video-section{
+  padding: 30px 0;
+  text-align: center;
+}
+
+.video-section h2{
+  margin: 30px 0;
+  font-size: 35px;
+}
+
+.video-wrapper i{
+  position: absolute;
+  padding: 18px 20px;
+  font-size: 20px;
+  border: solid 3px white;
+  border-radius: 50%;
+  cursor: pointer;
+}
