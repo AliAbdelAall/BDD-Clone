@@ -1,7 +1,15 @@
-.primary{
-  color: rgb(50, 50, 50);
+.primary-color{
+  color: rgb(32, 32, 32);
 }
 
-.secondary{
-  color: rgb(115, 115, 115);
+.secondary-color{
+  color: rgb(177, 177, 177);
+}
+
+.white{
+  color: white;
+}
+
+.white-background{
+  background-color: white;
 }

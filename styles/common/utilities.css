@@ -21,6 +21,13 @@
   justify-content: center;
   align-items: center;
 }
+.justufy-center{
+  justify-content: center;
+}
+
+.justufy-start{
+  justify-content: start;
+}
 
 .space-around{
   justify-content: space-around;
@@ -30,6 +37,15 @@
   justify-content: space-between;
 }
 
+.space-evenly{
+  justify-content: space-evenly;
+}
+
 .align-center{
   align-items: center;
 }
+
+.align-start{
+  align-items: start;
+}
+
