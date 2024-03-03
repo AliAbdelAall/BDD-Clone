@@ -46,12 +46,12 @@ body{
 }
 
 .btn{
-  padding: 15px 25px;
-  font-size: 15px;
+  padding: 10px 25px;
+  font-size: 13px;
   text-decoration: none;
   background-color: rgb(65, 65, 255);
   border-radius: 50px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: aliceblue;
   font-weight: bold;
 }
@@ -277,4 +277,67 @@ body{
 
 .trending-section{
   background-color: white;
+  height: fit-content;
+  padding: 50px 0;
 }
+
+.trending-section h2{
+  font-size: 30px;
+}
+
+.trending-info-wrapper{
+  width: 23%;
+  min-width: 150px;
+  padding: 10px;
+  margin: 10px;
+  
+}
+
+.trending-info-wrapper h4{
+  margin: 15px 0;
+  padding: 10px 20px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.date {
+  font-size: 12px;
+}
+
+.date p{
+  padding: 5px 20px;;
+}
+
+.trending-info-wrapper p{
+  letter-spacing: 2px;
+}
+
+.trending-image{
+  height: auto;
+  width: 100%;
+}
+
+.trending-info-container{
+  flex-wrap: wrap;
+}
+
+.visit-us{
+  height: 100px;
+
+}
+
+.visit-us ul{
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.visit-us i{
+  font-size: 8px;
+  margin-left: 5px ;
+}
+
+.visit-btn{
+  font-size: 14px;
+  letter-spacing: 0;
+}
+
