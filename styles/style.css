@@ -359,3 +359,22 @@ body{
   font-size: 28px;
   max-width: 30%;
 }
+
+.footer-container{
+  background-color: rgb(48, 48, 48);
+  padding: 30px 100px;
+}
+
+.footer-images{
+  max-width: 20%;
+}
+
+.footer-image{
+  max-width: 140px;
+
+}
+
+.site h5{
+  margin-bottom: 20px;
+
+}
